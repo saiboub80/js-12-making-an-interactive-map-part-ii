@@ -1,0 +1,25 @@
+
+#map { 
+    height: 400px;
+    background-color: #ccc;
+}
+#map::before{
+    content: 'LOADING';
+    font-size: 3em;
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    margin-top: 3em;
+}
+.leaflet-popup-content-wrapper {
+    width: 100%;
+}
+p1{
+    color: red;
+}
+#business{
+    color: blue;
+}
+#submit{
+    background-color: aqua;
+}
